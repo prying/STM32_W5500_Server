@@ -7,7 +7,8 @@
         "Drivers/CMSIS/Device/ST/STM32F0xx/Include",
         "Drivers/CMSIS/Include",
         "Drivers/STM32F0xx_HAL_Driver/Inc",
-        "Drivers/STM32F0xx_HAL_Driver/Inc/Legacy"
+        "Drivers/STM32F0xx_HAL_Driver/Inc/Legacy",
+        "Drivers/ioLibrary_Driver"
       ],
       "defines": [
         "STM32F072xB",
