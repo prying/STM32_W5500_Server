@@ -8,7 +8,7 @@
         "Drivers/CMSIS/Include",
         "Drivers/STM32F0xx_HAL_Driver/Inc",
         "Drivers/STM32F0xx_HAL_Driver/Inc/Legacy",
-        "Drivers/ioLibrary_Driver"
+        "Drivers/ioLibrary_Driver/Ethernet"
       ],
       "defines": [
         "STM32F072xB",
