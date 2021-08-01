@@ -63,7 +63,7 @@ Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c \
 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c \
 Core/Src/system_stm32f0xx.c \
 Drivers/ioLibrary_Driver/Ethernet/socket.c \
-Drivers/ioLibrary_Driver/Ethernet/wizchip_conf.c\ \
+Drivers/ioLibrary_Driver/Ethernet/wizchip_conf.c \
 Drivers/ioLibrary_Driver/Ethernet/W5500/w5500.c \
 Core/Src/ethernet.c
 
