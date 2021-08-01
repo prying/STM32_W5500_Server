@@ -61,7 +61,10 @@ Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c \
 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c \
 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c \
 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c \
-Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c
+Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c \
+Drivers/ioLibrary_Driver/Ethernet/W5500/w5500.c \
+Drivers/ioLibrary_Driver/Ethernet/interface.c \
+Drivers/ioLibrary_Driver/Ethernet/socket.c
 
 
 CPP_SOURCES = \
@@ -131,7 +134,9 @@ C_INCLUDES =  \
 -IDrivers/CMSIS/Device/ST/STM32F0xx/Include \
 -IDrivers/CMSIS/Include \
 -IDrivers/STM32F0xx_HAL_Driver/Inc \
--IDrivers/STM32F0xx_HAL_Driver/Inc/Legacy
+-IDrivers/STM32F0xx_HAL_Driver/Inc/Legacy \
+-IDrivers/ioLibrary_Driver/Ethernet \
+-IDrivers/ioLibrary_Driver/Ethernet/W5500
 
 
 
