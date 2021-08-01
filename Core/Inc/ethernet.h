@@ -27,7 +27,12 @@
 
 
 #define CS_PIN W5500_CS_Pin
-#define W5500_CS_GPIO_Port
+#define CS_PORT W5500_CS_GPIO_Port
+
+#define SPI_TIMEOUT 1000u // One second
+
+
+void ETH_W5500_Attach(void);
 
 
 #endif
