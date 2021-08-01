@@ -36,6 +36,7 @@ BUILD_DIR = build
 ######################################
 # C sources
 C_SOURCES =  \
+Core/Src/ethernet.c \
 Core/Src/gpio.c \
 Core/Src/main.c \
 Core/Src/spi.c \
@@ -63,7 +64,6 @@ Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c \
 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c \
 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c \
 Drivers/ioLibrary_Driver/Ethernet/W5500/w5500.c \
-Drivers/ioLibrary_Driver/Ethernet/interface.c \
 Drivers/ioLibrary_Driver/Ethernet/socket.c
 
 

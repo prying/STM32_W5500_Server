@@ -26,7 +26,8 @@
 #include "main.h"
 
 
-#define CS_PIN 13
+#define CS_PIN W5500_CS_Pin
+#define W5500_CS_GPIO_Port
 
 
 #endif
