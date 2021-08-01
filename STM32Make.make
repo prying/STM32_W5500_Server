@@ -64,7 +64,8 @@ Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c \
 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c \
 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c \
 Drivers/ioLibrary_Driver/Ethernet/W5500/w5500.c \
-Drivers/ioLibrary_Driver/Ethernet/socket.c
+Drivers/ioLibrary_Driver/Ethernet/socket.c \
+Drivers/ioLibrary_Driver/Ethernet/wizchip_conf.c
 
 
 CPP_SOURCES = \
